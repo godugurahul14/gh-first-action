@@ -1,0 +1,12 @@
+name: First-GitHubAction
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing greetings
+        run: |
+          echo "Hello World!!!!"
+          echo: "Hello Rahul!!!!"
+      - name: printing goodbye
+        run: echo "Done - Bye"
